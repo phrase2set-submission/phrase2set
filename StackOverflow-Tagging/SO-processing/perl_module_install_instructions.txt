@@ -1,0 +1,68 @@
+Perl modules can be installed on Debain and Red Hat based Linux distributions through their respective package managers.
+
+-------------------------
+Debian Linux based Distributions:
+-------------------------
+
+To install perl modules on Debian systems, use the 'apt-get install' command on the package name of the module. 
+The package name of the modules in Debian systems follows the convention described below.
+
+1. Convert the Perl module name to lower case, then
+2. Replace all double-colons with hyphens, then
+3. Prepend ‘lib’ and append ‘-perl’.
+
+
+For example: 
+	>apt-get install libdata-compare-perl
+		installs the Data::Compare module
+
+apt-get package names for modules in context_finder.pl 
+--------------------
+DBI -> libdbi-perl
+Regexp::Common -> libregexp-common-perl
+Config::General -> libconfig-general-perl
+HTML::Entities -> libhtml-parser-perl*
+
+* Supporting module of the main module used which the package name is based on. 
+
+-------------------------
+Red Hat linux based Distributions:
+-------------------------
+
+To install perl modules on Red Hat systems, use the 'yum install' command on the package name of the module. 
+The package name of the modules in Red Hat systems follows the convention described below.
+
+
+1. Replace all double-colons with hyphens, then
+2. Prepend ‘perl-’.
+
+For example:
+	>yum install perl-Data-Compare
+		installs the Data::Compare module
+
+
+yum package names for modules in context_finder.pl
+--------------------
+DBI -> perl-DBI
+Regexp::Common -> perl-Regexp-Common
+Config::General -> perl-Config-General
+HTML::Entities -> perl-HTML-Parser*
+
+* Supporting module of the main module used which the package name is based on. 
+
+-------------------------
+Installing through CPAN
+-------------------------
+
+Perl modules can also be installed through CPAN if CPAN is installed on the system. 
+This can be done by running the 'cpan -i' command on the module name
+
+for example:
+	cpan -i Data::Compare
+		installs the Data::Compare module
+
+
+
+Reference:
+	http://www.microhowto.info/howto/install_a_perl_module.html
+
