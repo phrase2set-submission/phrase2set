@@ -1,5 +1,5 @@
 \set ECHO all
-
+ 
 --total code elements
 select count(*) from 
 	(select c.du, pqn, simple as name, kind
