@@ -1,6 +1,1 @@
-Code used in GraLan and T2API for generating API usage graphs. 
-The tool uses a simple Bayesian model to estimate how likely a node is added to a graph, based on selected location and surrounding context.
-Two projects are:
-1. RECODER: a modification of Recoder tool (http://sourceforge.net/projects/recoder/), which is used for parsing a Java project without compiling it.
-2. CodeGeneration: API usage graph generation/recommendation tool. It is trained by mining graphs from parsed methods in Java projects, using DatabaseBuilerMain class. 
-It is used to recommend graphs via call of QueryMain class.
+
