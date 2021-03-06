@@ -1,0 +1,8 @@
+include ':CodeGeneration'
+project(':CodeGeneration').projectDir = new File(settingsDir, '../CodeGeneration')
+
+include ':RECODER'
+project(':RECODER').projectDir = new File(settingsDir, '../RECODER')
+
+include ':RefactoringMiner'
+project(':RefactoringMiner').projectDir = new File(settingsDir, '../../../RefactoringMiner')

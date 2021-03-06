@@ -1,0 +1,301 @@
+android,Contains resource classes used by applications included in the platform and defines application permissions for system features.
+android.accessibilityservice,The classes in this package are used for development of accessibility service that provide alternative or augmented feedback to the user.
+android.accounts,
+android.animation,"These classes provide functionality for the property animation system, which allows you to animate object properties of any type. int, float, and hexadecimal color values are supported by default. You can animate any other type by telling the system how to calculate the values for that given type with a custom TypeEvaluator.
+For more information, see the Animation guide."
+android.annotation,
+android.app,Contains high-level classes encapsulating the overall Android application model.
+android.app.admin,"Provides device administration features at the system level, allowing you to create security-aware applications that are useful in enterprise settings, in which IT professionals require rich control over employee devices.
+For more information, see the Device Administration guide."
+android.app.assist,
+android.app.backup,"Contains the backup and restore functionality available to applications. If a user wipes the data on their device or upgrades to a new Android-powered device, all applications that have enabled backup can restore the user's previous data when the application is reinstalled.
+For more information, see the Data Backup guide."
+android.app.job,
+android.app.usage,
+android.appwidget,"Contains the components necessary to create ""app widgets"", which users can embed in other applications (such as the home screen) to quickly access application data and services without launching a new activity.
+For more information, see the App Widgets guide."
+android.bluetooth,"Provides classes that manage Bluetooth functionality, such as scanning for devices, connecting with devices, and managing data transfer between devices. The Bluetooth API supports both ""Classic Bluetooth"" and Bluetooth Low Energy.
+For more information about Classic Bluetooth, see the Bluetooth guide. For more information about Bluetooth Low Energy, see the Bluetooth Low Energy (BLE) guide."
+android.bluetooth.le,
+android.companion,
+android.content,Contains classes for accessing and publishing data on a device.
+android.content.pm,"Contains classes for accessing information about an application package, including information about its activities, permissions, services, signatures, and providers."
+android.content.res,"Contains classes for accessing application resources, such as raw asset files, colors, drawables, media or other other files in the package, plus important device configuration details (orientation, input types, etc.) that affect how the application may behave.
+For more information, see the Application Resources guide."
+android.database,Contains classes to explore data returned through a content provider.
+android.database.sqlite,Contains the SQLite database management classes that an application would use to manage its own private database.
+android.databinding,Contains components used when developing applications with data binding.
+android.drm,Provides classes for managing DRM content and determining the capabilities of DRM plugins (agents).
+android.gesture,"Provides classes to create, recognize, load and save gestures."
+android.graphics,"Provides low level graphics tools such as canvases, color filters, points, and rectangles that let you handle drawing to the screen directly."
+android.graphics.drawable,"Provides classes to manage a variety of visual elements that are intended for display only, such as bitmaps and gradients."
+android.graphics.drawable.shapes,Contains classes for drawing geometric shapes.
+android.graphics.fonts,
+android.graphics.pdf,Contains classes for manipulation of PDF content.
+android.hardware,"Provides support for hardware features, such as the camera and other sensors."
+android.hardware.camera2,The android.hardware.camera2 package provides an interface to individual camera devices connected to an Android device.
+android.hardware.camera2.params,
+android.hardware.display,
+android.hardware.fingerprint,
+android.hardware.input,
+android.hardware.usb,"Provides support to communicate with USB hardware peripherals that are connected to Android-powered devices.
+For more information, see the USB guide."
+android.icu.lang,
+android.icu.math,
+android.icu.text,
+android.icu.util,
+android.inputmethodservice,Base classes for writing input methods (such as software keyboards).
+android.location,Contains the framework API classes that define Android location-based and related services.
+android.media,Provides classes that manage various media interfaces in audio and video.
+android.media.audiofx,Provides classes that manage audio effects implemented in the media framework.
+android.media.browse,
+android.media.effect,Provides classes that allow you to apply a variety of visual effects to images and videos.
+android.media.midi,"Provides classes for sending and receiving messages using the standard MIDI event protocol over USB, Bluetooth LE, and virtual (inter-app) transports."
+android.media.projection,
+android.media.session,
+android.media.tv,
+android.mtp,"Provides APIs that let you interact directly with connected cameras and other devices, using the PTP (Picture Transfer Protocol) subset of the MTP (Media Transfer Protocol) specification."
+android.net,"Classes that help with network access, beyond the normal java.net.* APIs."
+android.net.http,
+android.net.nsd,
+android.net.rtp,"Provides APIs for RTP (Real-time Transport Protocol), allowing applications to manage on-demand or interactive data streaming."
+android.net.sip,"Provides access to Session Initiation Protocol (SIP) functionality, such as making and answering VOIP calls using SIP.
+For more information, see the Session Initiation Protocol developer guide."
+android.net.wifi,Provides classes to manage Wi-Fi functionality on the device.
+android.net.wifi.aware,Provides classes which allow applications to use Wi-Fi Aware to discover peers and create connections to them.
+android.net.wifi.hotspot2,
+android.net.wifi.hotspot2.omadm,
+android.net.wifi.hotspot2.pps,
+android.net.wifi.p2p,Provides classes to create peer-to-peer (P2P) connections with Wi-Fi Direct.
+android.net.wifi.p2p.nsd,
+android.nfc,"Provides access to Near Field Communication (NFC) functionality, allowing applications to read NDEF message in NFC tags. A ""tag"" may actually be another device that appears as a tag.
+For more information, see the Near Field Communication guide."
+android.nfc.cardemulation,
+android.nfc.tech,"These classes provide access to a tag technology's features, which vary by the type of tag that is scanned."
+android.opengl,Provides an OpenGL ES static interface and utilities.
+android.os,"Provides basic operating system services, message passing, and inter-process communication on the device."
+android.os.health,The android.os.health package contains a set of classes to provide data to track the system resources of applications.
+android.os.storage,"Contains classes for the system storage service, which manages binary asset filesystems known as Opaque Binary Blobs (OBBs)."
+android.preference,Provides classes that manage application preferences and implement the preferences UI.
+android.print,"Overview
+Provides classes for implementing print support in applications and also contains all base classes and abstractions involved in printing."
+android.print.pdf,
+android.printservice,Provides classes for implementing print services.
+android.provider,Provides convenience classes to access the content providers supplied by Android.
+android.renderscript,"RenderScript provides support for high-performance computation across heterogeneous processors.
+For more information, see the RenderScript developer guide."
+android.sax,A framework that makes it easy to write efficient and robust SAX handlers.
+android.security,Provides access to a few facilities of the Android security subsystems.
+android.security.keystore,
+android.service.autofill,
+android.service.carrier,
+android.service.chooser,
+android.service.dreams,
+android.service.media,
+android.service.notification,
+android.service.quicksettings,
+android.service.restrictions,
+android.service.textservice,Provides classes that allow you to create spell checkers in a manner similar to the input method framework (for IMEs).
+android.service.voice,
+android.service.vr,
+android.service.wallpaper,
+android.speech,
+android.speech.tts,
+android.support.animation,
+android.support.annotation,
+android.support.app.recommendation,
+android.support.compat,
+android.support.coreui,
+android.support.coreutils,
+android.support.customtabs,
+android.support.design,
+android.support.design.widget,
+android.support.dynamicanimation,
+android.support.exifinterface,
+android.support.fragment,
+android.support.graphics.drawable,
+android.support.graphics.drawable.animated,
+android.support.media,
+android.support.media.instantvideo,
+android.support.media.instantvideo.preload,
+android.support.media.instantvideo.widget,
+android.support.media.tv,
+android.support.mediacompat,
+android.support.multidex,
+android.support.percent,
+android.support.recommendation,
+android.support.transition,Support android.transition classes to provide transition API back to android API level 14.
+android.support.v13,
+android.support.v13.app,Support classes to access some of the android.app package features introduced after API level 13 in a backwards compatible fashion.
+android.support.v13.view,
+android.support.v13.view.inputmethod,
+android.support.v14.preference,
+android.support.v17.leanback,Support classes for building Leanback user experiences.
+android.support.v17.leanback.app,Support classes providing high level Leanback user interface building blocks: fragments and helpers.
+android.support.v17.leanback.database,
+android.support.v17.leanback.graphics,
+android.support.v17.leanback.media,
+android.support.v17.leanback.system,
+android.support.v17.leanback.widget,Support classes providing low level Leanback user interface building blocks: widgets and helpers.
+android.support.v17.leanback.widget.picker,
+android.support.v17.preference,
+android.support.v4,
+android.support.v4.accessibilityservice,Support android.accessibilityservice classes to assist with development of applications for android API level 4 or later.
+android.support.v4.app,
+android.support.v4.content,Support android.content classes to assist with development of applications for android API level 4 or later.
+android.support.v4.content.pm,Support android.content.pm classes to assist with development of applications for android API level 4 or later.
+android.support.v4.content.res,
+android.support.v4.database,Support android.database classes to assist with development of applications for android API level 4 or later.
+android.support.v4.graphics,
+android.support.v4.graphics.drawable,
+android.support.v4.hardware.display,
+android.support.v4.hardware.fingerprint,
+android.support.v4.math,
+android.support.v4.media,
+android.support.v4.media.session,
+android.support.v4.net,
+android.support.v4.os,Support android.os classes to assist with development of applications for android API level 4 or later.
+android.support.v4.print,
+android.support.v4.provider,
+android.support.v4.text,
+android.support.v4.text.util,
+android.support.v4.util,Support android.util classes to assist with development of applications for android API level 4 or later.
+android.support.v4.view,Support android.util classes to assist with development of applications for android API level 4 or later.
+android.support.v4.view.accessibility,Support classes to access some of the android.view.accessibility package features introduced after API level 4 in a backwards compatible fashion.
+android.support.v4.view.animation,
+android.support.v4.widget,Support android.widget classes to assist with development of applications for android API level 4 or later.
+android.support.v7.app,
+android.support.v7.appcompat,
+android.support.v7.cardview,
+android.support.v7.content.res,
+android.support.v7.graphics,
+android.support.v7.graphics.drawable,
+android.support.v7.gridlayout,
+android.support.v7.media,Contains APIs that control the routing of media channels and streams from the current device to external speakers and destination devices.
+android.support.v7.mediarouter,
+android.support.v7.palette,
+android.support.v7.preference,
+android.support.v7.recyclerview,
+android.support.v7.util,
+android.support.v7.view,
+android.support.v7.widget,
+android.support.v7.widget.helper,
+android.support.v7.widget.util,
+android.support.v8.renderscript,
+android.support.wearable,
+android.support.wearable.view,
+android.system,
+android.telecom,The Android Telecom framework is responsible for managing calls on an Android device.
+android.telephony,"Provides APIs for monitoring the basic phone information, such as the network type and connection state, plus utilities for manipulating phone number strings."
+android.telephony.cdma,Provides APIs for utilizing CDMA-specific telephony features.
+android.telephony.gsm,"Provides APIs for utilizing GSM-specific telephony features, such as text/data/PDU SMS messages."
+android.test,"A framework for writing Android test cases and suites.
+For more information, see the Testing developer guide."
+android.test.mock,"Utility classes providing stubs or mocks of various Android framework building blocks.
+For more information, see the Testing guide."
+android.test.suitebuilder,Utility classes supporting the test runner classes.
+android.test.suitebuilder.annotation,Utility classes supporting the test runner classes.
+android.text,Provides classes used to render or track text and text spans on the screen.
+android.text.format,This package contains alternative classes for some text formatting classes defined in java.utiland java.text.
+android.text.method,Provides classes that monitor or modify keypad input.
+android.text.style,Provides classes used to view or change the style of a span of text in a View object.
+android.text.util,Utilities for converting identifiable text strings into clickable links and creating RFC 822-type message (SMTP) tokens.
+android.transition,"The classes in this package enable ""scenes & transitions"" functionality for view hiearchies."
+android.util,"Provides common utility methods such as date/time manipulation, base64 encoders and decoders, string and number conversion methods, and XML utilities."
+android.view,Provides classes that expose basic user interface classes that handle screen layout and interaction with the user.
+android.view.accessibility,The classes in this package are used to represent screen content and changes to it as well as APIs for querying the global accessibility state of the system.
+android.view.animation,Provides classes that handle tweened animations.
+android.view.autofill,
+android.view.inputmethod,Framework classes for interaction between views and input methods (such as soft keyboards).
+android.view.textclassifier,
+android.view.textservice,
+android.webkit,Provides tools for browsing the web.
+android.widget,The widget package contains (mostly visual) UI elements to use on your Application screen.
+com.android.internal.backup,
+com.android.internal.inputmethod,
+com.android.internal.logging,
+com.android.internal.os,
+com.android.internal.statusbar,
+com.android.internal.widget,
+com.android.test.runner,
+dalvik.annotation,
+dalvik.bytecode,
+dalvik.system,
+java.awt.font,
+java.beans,
+java.io,"Provides for system input and output through data streams, serialization and the file system."
+java.lang,Provides classes that are fundamental to the design of the Java programming language.
+java.lang.annotation,Provides library support for the Java programming language annotation facility.
+java.lang.invoke,
+java.lang.ref,"Provides reference-object classes, which support a limited degree of interaction with the garbage collector."
+java.lang.reflect,Provides classes and interfaces for obtaining reflective information about classes and objects.
+java.math,
+java.net,Provides the classes for implementing networking applications.
+java.nio,"Defines buffers, which are containers for data, and provides an overview of the other NIO packages."
+java.nio.channels,"Defines channels, which represent connections to entities that are capable of performing I/O operations, such as files and sockets; defines selectors, for multiplexed, non-blocking I/O operations."
+java.nio.channels.spi,Service-provider classes for the java.nio.channels package.
+java.nio.charset,"Defines charsets, decoders, and encoders, for translating between bytes and Unicode characters."
+java.nio.charset.spi,Service-provider classes for the java.nio.charset package.
+java.nio.file,
+java.nio.file.attribute,
+java.nio.file.spi,
+java.security,Provides the classes and interfaces for the security framework.
+java.security.acl,The classes and interfaces in this package have been superseded by classes in the java.security package.
+java.security.cert,"Provides classes and interfaces for parsing and managing certificates, certificate revocation lists (CRLs), and certification paths."
+java.security.interfaces,"Provides interfaces for generating RSA (Rivest, Shamir and Adleman AsymmetricCipher algorithm) keys as defined in the RSA Laboratory Technical Note PKCS#1, and DSA (Digital Signature Algorithm) keys as defined in NIST's FIPS-186."
+java.security.spec,Provides classes and interfaces for key specifications and algorithm parameter specifications.
+java.sql,Provides the API for accessing and processing data stored in a data source (usually a relational database) using the JavaTM programming language.
+java.text,"Provides classes and interfaces for handling text, dates, numbers, and messages in a manner independent of natural languages."
+java.time,"The main API for dates, times, instants, and durations."
+java.time.chrono,Generic API for calendar systems other than the default ISO.
+java.time.format,Provides classes to print and parse dates and times.
+java.time.temporal,"Access to date and time using fields and units, and date time adjusters."
+java.time.zone,Support for time-zones and their rules.
+java.util,"Contains the collections framework, legacy collection classes, event model, date and time facilities, internationalization, and miscellaneous utility classes (a string tokenizer, a random-number generator, and a bit array)."
+java.util.concurrent,Utility classes commonly useful in concurrent programming.
+java.util.concurrent.atomic,A small toolkit of classes that support lock-free thread-safe programming on single variables.
+java.util.concurrent.locks,Interfaces and classes providing a framework for locking and waiting for conditions that is distinct from built-in synchronization and monitors.
+java.util.function,Functional interfaces provide target types for lambda expressions and method references.
+java.util.jar,"Provides classes for reading and writing the JAR (Java ARchive) file format, which is based on the standard ZIP file format with an optional manifest file."
+java.util.logging,Provides the classes and interfaces of the JavaTM 2 platform's core logging facilities.
+java.util.prefs,This package allows applications to store and retrieve user and system preference and configuration data.
+java.util.regex,Classes for matching character sequences against patterns specified by regular expressions.
+java.util.stream,"Classes to support functional-style operations on streams of elements, such as map-reduce transformations on collections."
+java.util.zip,Provides classes for reading and writing the standard ZIP and GZIP file formats.
+javax.crypto,Provides the classes and interfaces for cryptographic operations.
+javax.crypto.interfaces,Provides interfaces for Diffie-Hellman keys as defined in RSA Laboratories' PKCS #3.
+javax.crypto.spec,Provides classes and interfaces for key specifications and algorithm parameter specifications.
+javax.microedition.khronos.egl,
+javax.microedition.khronos.opengles,Provides a standard OpenGL interface.
+javax.net,Provides classes for networking applications.
+javax.net.ssl,Provides classes for the secure socket package.
+javax.security.auth,This package provides a framework for authentication and authorization.
+javax.security.auth.callback,"This package provides the classes necessary for services to interact with applications in order to retrieve information (authentication data including usernames or passwords, for example) or to display information (error and warning messages, for example)."
+javax.security.auth.login,This package provides a pluggable authentication framework.
+javax.security.auth.x500,This package contains the classes that should be used to store X500 Principal and X500 Private Credentials in a Subject.
+javax.security.cert,Provides classes for public key certificates.
+javax.sql,Provides the API for server side data source access and processing from the JavaTM programming language.
+javax.xml,
+javax.xml.datatype,
+javax.xml.namespace,
+javax.xml.parsers,
+javax.xml.transform,
+javax.xml.transform.dom,
+javax.xml.transform.sax,
+javax.xml.transform.stream,
+javax.xml.validation,
+javax.xml.xpath,
+junit.framework,
+junit.runner,Utility classes supporting the junit test framework.
+org.apache.http.conn,
+org.apache.http.conn.scheme,
+org.apache.http.conn.ssl,TLS/SSL specific parts of the HttpConn API.
+org.apache.http.params,
+org.json,
+org.w3c.dom,
+org.w3c.dom.ls,
+org.xml.sax,
+org.xml.sax.ext,
+org.xml.sax.helpers,
+org.xmlpull.v1,
+org.xmlpull.v1.sax2,

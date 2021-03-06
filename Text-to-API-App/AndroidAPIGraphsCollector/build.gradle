@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/java'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile group: 'org.mongodb', name: 'mongo-java-driver', version: '3.4.2'
+	compile group: 'org.mongodb', name: 'bson', version: '3.4.2'
+	compile group: 'javax.json', name: 'javax.json-api', version: '1.1'
+	compile group: 'com.jcabi', name: 'jcabi-github', version: '0.31'
+	
+	compile project(':RefLearner')
+	compile project(':RECODER')
+	compile project(':CodeGeneration')
+	compile project(':RefactoringMiner')
+}

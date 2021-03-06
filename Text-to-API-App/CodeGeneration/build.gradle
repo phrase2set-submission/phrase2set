@@ -1,0 +1,39 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile group: 'org.apache.commons', name: 'commons-collections4', version: '4.1'
+	compile group: 'commons-collections', name: 'commons-collections', version: '3.2.2'
+	compile group: 'commons-io', name: 'commons-io', version: '2.5'
+	compile group: 'net.sf.trove4j', name: 'trove4j', version: '3.0.3'
+	compile group: 'org.xerial.snappy', name: 'snappy-java', version: '1.1.4'
+	compile group: 'org.tmatesoft.svnkit', name: 'svnkit', version: '1.8.14'
+	compile group: 'org.tmatesoft.sqljet', name: 'sqljet', version: '1.1.10'
+	
+	compile files('libs/jung-1.7.5.jar')
+	compile files('libs/org.eclipse.core.contenttype_3.4.200.v20130326-1255.jar')
+	compile files('libs/org.eclipse.core.jobs_3.5.300.v20130429-1813.jar')
+	compile files('libs/org.eclipse.core.resources_3.8.101.v20130717-0806.jar')
+	compile files('libs/org.eclipse.core.runtime_3.9.0.v20130326-1255.jar')
+	compile files('libs/org.eclipse.equinox.common_3.6.200.v20130402-1505.jar')
+	compile files('libs/org.eclipse.equinox.preferences_3.5.100.v20130422-1538.jar')
+	compile files('libs/org.eclipse.jdt.core_3.9.1.v20130905-0837.jar')
+	compile files('libs/org.eclipse.osgi_3.9.1.v20130814-1242.jar')
+	compile files('libs/org.eclipse.osgi.services_3.3.100.v20130513-1956.jar')
+	compile files('libs/org.eclipse.osgi.util_3.2.300.v20130513-1956.jar')
+	
+	compile project(':RECODER')
+	
+}

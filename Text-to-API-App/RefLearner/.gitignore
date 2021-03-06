@@ -1,0 +1,10 @@
+target/**
+/text.txt
+*.out
+*.txt
+.classpath
+.project
+build/**
+.gradle/**
+.settings/**
+bin/**

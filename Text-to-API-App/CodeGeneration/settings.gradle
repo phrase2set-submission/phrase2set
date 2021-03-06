@@ -1,0 +1,2 @@
+include ':RECODER'
+project(':RECODER').projectDir = new File(settingsDir, '../RECODER')

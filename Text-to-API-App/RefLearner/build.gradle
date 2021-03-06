@@ -1,0 +1,21 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	
+	compile project(':RECODER')
+	compile project(':CodeGeneration')
+	compile project(':RefactoringMiner')
+}

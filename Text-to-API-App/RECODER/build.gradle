@@ -1,0 +1,30 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+            srcDir 'doc/examples/src'
+        }
+    }
+    test {
+        java {
+            srcDir 'test/src'
+        }
+    }
+    
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile group: 'org.ow2.asm', name: 'asm', version: '5.2'
+	compile group: 'backport-util-concurrent', name: 'backport-util-concurrent', version: '3.1'
+	compile group: 'junit', name: 'junit', version: '4.12'
+	compile group: 'net.sf.retrotranslator', name: 'retrotranslator-transformer', version: '1.2.9'
+	compile group: 'net.sf.retrotranslator', name: 'retrotranslator-runtime', version: '1.2.9'
+	compile group: 'bsh', name: 'bsh', version: '2.0b4'
+}
