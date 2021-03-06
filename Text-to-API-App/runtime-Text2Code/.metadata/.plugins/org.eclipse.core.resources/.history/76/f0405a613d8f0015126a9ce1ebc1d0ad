@@ -1,0 +1,12 @@
+package edu.iastate.edu;
+
+import java.io.File;
+import java.io.IOException;
+
+public class FileIO {
+	
+	public void copy(File src, File dst) throws IOException {
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package edu.iastate.edu.locationsvc;
+
+public class Location {
+
+}

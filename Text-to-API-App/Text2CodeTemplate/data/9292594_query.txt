@@ -1,0 +1,1 @@
+Read bytes from a file and write the content to another file in a destination path

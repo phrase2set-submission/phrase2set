@@ -1,0 +1,11 @@
+LocationManager varLocationManager;
+varLocationManager.removeUpdates();
+Location varLocation = varLocationManager.getLastKnownLocation();
+if (varLocation.isProviderEnabled();){
+	varLocation.getLatitude();
+	varLocation.getLongitude();
+	Log.i();
+	varLocation.requestLocationUpdates();
+}
+Context varContext;
+varContext.getSystemService();

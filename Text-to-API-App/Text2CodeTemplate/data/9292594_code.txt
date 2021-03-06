@@ -1,0 +1,8 @@
+FileInputStream varInputStream = new FileInputStream(...); 
+FileOutputStream varOutputStream = new FileOutputStream(...);
+byte[] varByte = new byte[...];
+while (varInputStream.read(...)>0) {
+	varOutputStream.write();
+}
+varInputStream.close();
+varOutputStream.close();
